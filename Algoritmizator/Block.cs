@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.Office.Interop.Visio;
-using Microsoft.Office.Interop.VisOcx;
-
 namespace Algoritmizator
 {
     public enum BlockType
@@ -41,8 +38,7 @@ namespace Algoritmizator
         public string Comment { get; private set; }
         public BlockType Type { get; set; }
         public List<Block> NextBlocks { get; private set; }
-        public Shape PrevShape { get; set; }
-        public Block PrevBlock { get; set; }
+        public Shape shape { get; set; }
         public int Level { get; set; }
         public Path CodePath { get; set; }
         public int Top { get; set; } //расстояние от верха страницы в ячейках

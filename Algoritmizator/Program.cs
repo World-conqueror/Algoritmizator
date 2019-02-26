@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-
 namespace Algoritmizator
 {
     static class Program
@@ -14,7 +13,6 @@ namespace Algoritmizator
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Designer.Generate();
         }
     }
 }

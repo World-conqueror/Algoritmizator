@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Block.cs" />
+    <Compile Include="Bloxator.cs" />
     <Compile Include="Designer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
